@@ -3,6 +3,7 @@
     ./modules/default.nix
     ./modules/ui.nix
     ./modules/toggleterm.nix
+    ./modules/whichkey.nix
     ./modules/keymaps.nix
 
     ./modules/completion.nix
