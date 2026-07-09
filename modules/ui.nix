@@ -6,9 +6,10 @@
       style = "mocha";
     };
 
+    # Lualine (bottom status line)
     statusline.lualine.enable = true;
 
-
+    # Bufferline
     tabline = {
       nvimBufferline = {
         enable = true;
@@ -33,5 +34,8 @@
         };
       };
     };
+
+    # Neotree file explorer
+    filetree.neo-tree.enable = true;
   };
 }
