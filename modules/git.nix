@@ -3,7 +3,7 @@
     enable = true;
 
     gitsigns.enable = true;
-
-    gitlinker-nvim.enable = true;
+    gitsigns.codeActions.enable = false; # throws an annoying debug message
+    neogit.enable = true;
   };
 }
