@@ -4,7 +4,7 @@
 
     lsp = {
       enable = true;
-      servers = [ "pyright" ];
+      servers = [ "basedpyright" ];
     };
 
     format.enable = false;

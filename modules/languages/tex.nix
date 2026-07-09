@@ -31,6 +31,15 @@
     vimtex_compiler_method = "latexmk";
   };
 
+  vim.autocmds = [
+    {
+      event = ["BufWritePre"];
+      pattern = ["*.tex"];
+      command = "silent! lua pcall(vim.lsp.buf.format)";
+      desc = "Format TeX on save";
+    }
+  ];
+
   vim.languages.tex = {
     enable = true;
 
