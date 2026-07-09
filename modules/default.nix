@@ -10,8 +10,8 @@
       relativenumber = true;
 
       expandtab = true;
-      shiftwidth = 4;
-      tabstop = 4;
+      shiftwidth = 2;
+      tabstop = 2;
 
       clipboard = "unnamedplus";
 
@@ -20,6 +20,8 @@
 
       wrap = false;
       scrolloff = 8;
+      hlsearch = false;
+      undofile = true;
     };
   };
 }

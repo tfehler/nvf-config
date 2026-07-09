@@ -6,6 +6,17 @@
       style = "mocha";
     };
 
+    visuals = {
+      nvim-web-devicons.enable = true;
+      nvim-cursorline.enable = true;
+      cinnamon-nvim.enable = true;
+      fidget-nvim.enable = true;
+
+      highlight-undo.enable = true;
+      blink-indent.enable = true;
+      indent-blankline.enable = true;
+    };
+
     # Lualine (bottom status line)
     statusline.lualine.enable = true;
 

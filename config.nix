@@ -2,6 +2,7 @@
   imports = [
     ./modules/default.nix
     ./modules/ui.nix
+    ./modules/autopairs.nix
     ./modules/toggleterm.nix
     ./modules/whichkey.nix
     ./modules/keymaps.nix
