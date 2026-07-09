@@ -1,0 +1,3 @@
+{
+  vim.treesitter.enable = true;
+}
