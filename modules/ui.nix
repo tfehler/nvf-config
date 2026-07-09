@@ -37,5 +37,26 @@
 
     # Neotree file explorer
     filetree.neo-tree.enable = true;
+
+    keymaps = [
+      {
+        key = "<Tab>";
+        mode = "n";
+        action = "<cmd>BufferLineCycleNext<CR>";
+      }
+
+      {
+        key = "<S-Tab>";
+        mode = "n";
+        action = "<cmd>BufferLineCyclePrev<CR>";
+      }
+
+      {
+        key = "<leader>E";
+        mode = "n";
+        action = "<cmd>Neotree toggle<CR>";
+        desc = "Toggle Neotree explorer";
+      }
+    ];
   };
 }
