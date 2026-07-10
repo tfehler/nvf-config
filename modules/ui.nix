@@ -68,6 +68,13 @@
         action = "<cmd>Neotree toggle<CR>";
         desc = "Toggle Neotree explorer";
       }
+
+      {
+        key = "<leader>ul";
+        mode = "n";
+        action = "<cmd>set wrap!<CR>";
+        desc = "Toggle line wrapping";
+      }
     ];
   };
 }
